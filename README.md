@@ -446,8 +446,8 @@ NGINX-сервера на домен, 8-ядерные | 17 ядер на сер
 |---------|----------------|---------|--------------|------|----------------------|
 | **users** | `total_balance` (decimal) | `phone`, `email` | Нет | PostgreSQL | Полный + WAL<br>Ежемесячно + непрерывно |
 | **accounts** | `user_phone`, `user_full_name` (text) | `user_id`, `status`, `user_phone`, `user_full_name` | Нет | PostgreSQL | Полный + WAL<br>Ежедневно + непрерывно |
-| **transactions_credit** | `to_user_name`, `from_user_name` (text) | `(to_account, created_at)`, `status`, `category` | Вертикальное + горизонтальное (19 частей) | PostgreSQL | Полный + консистентные снепшоты + WAL<br>Ежедневно + непрерывно |
-| **transactions_debit** | `from_user_name`, `to_user_name` (text) | `(from_account, created_at)`, `status`, `category` | Вертикальное + горизонтальное (19 частей) | PostgreSQL | Полный + консистентные снепшоты + WAL<br>Ежедневно + непрерывно |
+| **transactions_credit** | `to_user_name`, `from_user_name` (text) | `(to_account, created_at)`, `status`, `category` | Вертикальное + горизонтальное | PostgreSQL | Полный + консистентные снепшоты + WAL<br>Ежедневно + непрерывно |
+| **transactions_debit** | `from_user_name`, `to_user_name` (text) | `(from_account, created_at)`, `status`, `category` | Вертикальное + горизонтальное | PostgreSQL | Полный + консистентные снепшоты + WAL<br>Ежедневно + непрерывно |
 | **transactions_global_index** | Нет | `created_at`, `account_id`, `(shard_type, account_id)` | Нет | PostgreSQL | Полный + WAL<br>Ежедневно + непрерывно |
 | **receipts** | `transaction_amount`, `transaction_date` | `transaction_id`, `transaction_date` | Нет | PostgreSQL | Полный<br>Ежемесячно |
 | **user_cards** | `user_phone`, `user_full_name` (text) | `user_id`, `status`, `user_phone` | Нет | PostgreSQL | Полный + WAL<br>Еженедельно + непрерывно |
