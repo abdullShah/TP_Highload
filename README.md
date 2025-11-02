@@ -1,8 +1,8 @@
 # Сбербанк как highload-система в финтехе
 
-*Задание* &mdash; [Методические указания](https://docs.google.com/spreadsheets/d/1Vfrxz6_Po1LjrNpzGI9VsO1sG32f8jTcpJ014TzFqtM/edit?usp=sharing)
+*Задание* &mdash; [Методические указания](https://github.com/init/highload/blob/main/homework_architecture.md)
 
-*Ведомость* &mdash; [Таблица отчетности](https://github.com/init/highload/blob/main/homework_architecture.md)
+*Ведомость* &mdash; [Таблица отчетности](https://docs.google.com/spreadsheets/d/1Vfrxz6_Po1LjrNpzGI9VsO1sG32f8jTcpJ014TzFqtM/edit?usp=sharing)
 
 *Защита* &mdash; [Презентация]()
 
