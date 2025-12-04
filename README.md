@@ -4,7 +4,7 @@
 
 *Ведомость* &mdash; [Таблица отчетности](https://docs.google.com/spreadsheets/d/1Vfrxz6_Po1LjrNpzGI9VsO1sG32f8jTcpJ014TzFqtM/edit?usp=sharing)
 
-*Защита* &mdash; [Презентация]()
+*Защита* &mdash; [Презентация](https://1drv.ms/p/c/ccbe675b4b3b27b5/IQBlBk99I4ThRJe6QUog-_JZAQhmR5AHfO8hHkVubhvc3WY?e=4W7Dw1)
 
 ## Содержание
 
